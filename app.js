@@ -35,7 +35,7 @@ con.connect(function(err) {
             });
         });
     });
-const PORT = 3000;
+const PORT = 5000;
 server.listen(process.env.PORT||PORT,()=>{
     console.log('server dang chay');
 });
